@@ -1,0 +1,145 @@
+REP,Treatment,Application,Stage,Crop,Soybean,Trt,RateUS,RateM,Rate1,Dilution,PLOT,DAT,IR
+1,7,1,2nd Trifoliate,2,Glyphosate,1,0,0,0,0,107,20,0
+2,7,1,2nd Trifoliate,2,Glyphosate,1,0,0,0,0,237,20,0
+3,7,1,2nd Trifoliate,2,Glyphosate,1,0,0,0,0,356,20,0
+4,7,1,2nd Trifoliate,2,Glyphosate,1,0,0,0,0,449,20,0
+1,8,1,2nd Trifoliate,2,Glyphosate,2,1.6,56, 1/10,0.1,108,20,60
+2,8,1,2nd Trifoliate,2,Glyphosate,2,1.6,56, 1/10,0.1,238,20,70
+3,8,1,2nd Trifoliate,2,Glyphosate,2,1.6,56, 1/10,0.1,357,20,80
+4,8,1,2nd Trifoliate,2,Glyphosate,2,1.6,56, 1/10,0.1,450,20,80
+1,9,1,2nd Trifoliate,2,Glyphosate,3,0.16,5.6,1/100,0.01,109,20,40
+2,9,1,2nd Trifoliate,2,Glyphosate,3,0.16,5.6,1/100,0.01,239,20,30
+3,9,1,2nd Trifoliate,2,Glyphosate,3,0.16,5.6,1/100,0.01,358,20,30
+4,9,1,2nd Trifoliate,2,Glyphosate,3,0.16,5.6,1/100,0.01,453,20,30
+1,10,1,2nd Trifoliate,2,Glyphosate,4,0.032,1.12,1/500,0.002,110,20,30
+2,10,1,2nd Trifoliate,2,Glyphosate,4,0.032,1.12,1/500,0.002,240,20,35
+3,10,1,2nd Trifoliate,2,Glyphosate,4,0.032,1.12,1/500,0.002,355,20,20
+4,10,1,2nd Trifoliate,2,Glyphosate,4,0.032,1.12,1/500,0.002,452,20,50
+1,11,1,2nd Trifoliate,2,Glyphosate,5,0.016,0.56,1/1000,0.001,111,20,20
+2,11,1,2nd Trifoliate,2,Glyphosate,5,0.016,0.56,1/1000,0.001,241,20,15
+3,11,1,2nd Trifoliate,2,Glyphosate,5,0.016,0.56,1/1000,0.001,359,20,20
+4,11,1,2nd Trifoliate,2,Glyphosate,5,0.016,0.56,1/1000,0.001,454,20,35
+1,12,1,2nd Trifoliate,2,Glyphosate,6,0.01067,0.37345,1/1500,0.00067,112,20,5
+2,12,1,2nd Trifoliate,2,Glyphosate,6,0.01067,0.37345,1/1500,0.00067,242,20,10
+3,12,1,2nd Trifoliate,2,Glyphosate,6,0.01067,0.37345,1/1500,0.00067,360,20,30
+4,12,1,2nd Trifoliate,2,Glyphosate,6,0.01067,0.37345,1/1500,0.00067,451,20,35
+1,13,1,2nd Trifoliate,3,Glufosinate,1,0,0,0,0,113,20,0
+2,13,1,2nd Trifoliate,3,Glufosinate,1,0,0,0,0,209,20,0
+3,13,1,2nd Trifoliate,3,Glufosinate,1,0,0,0,0,384,20,0
+4,13,1,2nd Trifoliate,3,Glufosinate,1,0,0,0,0,443,20,0
+1,14,1,2nd Trifoliate,3,Glufosinate,2,1.6,56, 1/10,0.1,114,20,90
+2,14,1,2nd Trifoliate,3,Glufosinate,2,1.6,56, 1/10,0.1,211,20,80
+3,14,1,2nd Trifoliate,3,Glufosinate,2,1.6,56, 1/10,0.1,379,20,85
+4,14,1,2nd Trifoliate,3,Glufosinate,2,1.6,56, 1/10,0.1,448,20,90
+1,15,1,2nd Trifoliate,3,Glufosinate,3,0.16,5.6,1/100,0.01,115,20,35
+2,15,1,2nd Trifoliate,3,Glufosinate,3,0.16,5.6,1/100,0.01,212,20,40
+3,15,1,2nd Trifoliate,3,Glufosinate,3,0.16,5.6,1/100,0.01,380,20,40
+4,15,1,2nd Trifoliate,3,Glufosinate,3,0.16,5.6,1/100,0.01,446,20,30
+1,16,1,2nd Trifoliate,3,Glufosinate,4,0.032,1.12,1/500,0.002,116,20,30
+2,16,1,2nd Trifoliate,3,Glufosinate,4,0.032,1.12,1/500,0.002,207,20,25
+3,16,1,2nd Trifoliate,3,Glufosinate,4,0.032,1.12,1/500,0.002,383,20,40
+4,16,1,2nd Trifoliate,3,Glufosinate,4,0.032,1.12,1/500,0.002,444,20,40
+1,17,1,2nd Trifoliate,3,Glufosinate,5,0.016,0.56,1/1000,0.001,117,20,25
+2,17,1,2nd Trifoliate,3,Glufosinate,5,0.016,0.56,1/1000,0.001,210,20,40
+3,17,1,2nd Trifoliate,3,Glufosinate,5,0.016,0.56,1/1000,0.001,382,20,30
+4,17,1,2nd Trifoliate,3,Glufosinate,5,0.016,0.56,1/1000,0.001,445,20,30
+1,18,1,2nd Trifoliate,3,Glufosinate,6,0.01067,0.37345,1/1500,0.00067,118,20,5
+2,18,1,2nd Trifoliate,3,Glufosinate,6,0.01067,0.37345,1/1500,0.00067,208,20,10
+3,18,1,2nd Trifoliate,3,Glufosinate,6,0.01067,0.37345,1/1500,0.00067,381,20,15
+4,18,1,2nd Trifoliate,3,Glufosinate,6,0.01067,0.37345,1/1500,0.00067,447,20,10
+1,19,1,2nd Trifoliate,4,Conventional,1,0,0,0,0,119,20,0
+2,19,1,2nd Trifoliate,4,Conventional,1,0,0,0,0,229,20,0
+3,19,1,2nd Trifoliate,4,Conventional,1,0,0,0,0,371,20,0
+4,19,1,2nd Trifoliate,4,Conventional,1,0,0,0,0,465,20,0
+2,20,1,2nd Trifoliate,4,Conventional,2,1.6,56, 1/10,0.1,227,20,60
+3,20,1,2nd Trifoliate,4,Conventional,2,1.6,56, 1/10,0.1,372,20,80
+4,20,1,2nd Trifoliate,4,Conventional,2,1.6,56, 1/10,0.1,462,20,80
+1,20,1,2nd Trifoliate,4,Conventional,2,1.6,56, 1/10,0.1,120,20,80
+1,21,1,2nd Trifoliate,4,Conventional,3,0.16,5.6,1/100,0.01,121,20,40
+2,21,1,2nd Trifoliate,4,Conventional,3,0.16,5.6,1/100,0.01,226,20,40
+3,21,1,2nd Trifoliate,4,Conventional,3,0.16,5.6,1/100,0.01,370,20,45
+4,21,1,2nd Trifoliate,4,Conventional,3,0.16,5.6,1/100,0.01,463,20,50
+1,22,1,2nd Trifoliate,4,Conventional,4,0.032,1.12,1/500,0.002,122,20,40
+2,22,1,2nd Trifoliate,4,Conventional,4,0.032,1.12,1/500,0.002,228,20,40
+3,22,1,2nd Trifoliate,4,Conventional,4,0.032,1.12,1/500,0.002,367,20,35
+4,22,1,2nd Trifoliate,4,Conventional,4,0.032,1.12,1/500,0.002,466,20,50
+1,23,1,2nd Trifoliate,4,Conventional,5,0.016,0.56,1/1000,0.001,123,20,20
+2,23,1,2nd Trifoliate,4,Conventional,5,0.016,0.56,1/1000,0.001,225,20,10
+3,23,1,2nd Trifoliate,4,Conventional,5,0.016,0.56,1/1000,0.001,368,20,40
+4,23,1,2nd Trifoliate,4,Conventional,5,0.016,0.56,1/1000,0.001,464,20,40
+1,24,1,2nd Trifoliate,4,Conventional,6,0.01067,0.37345,1/1500,0.00067,124,20,10
+2,24,1,2nd Trifoliate,4,Conventional,6,0.01067,0.37345,1/1500,0.00067,230,20,20
+3,24,1,2nd Trifoliate,4,Conventional,6,0.01067,0.37345,1/1500,0.00067,369,20,20
+4,24,1,2nd Trifoliate,4,Conventional,6,0.01067,0.37345,1/1500,0.00067,461,20,15
+1,25,1,2nd Trifoliate,5,Organic,1,0,0,0,0,125,20,0
+2,25,1,2nd Trifoliate,5,Organic,1,0,0,0,0,201,20,0
+3,25,1,2nd Trifoliate,5,Organic,1,0,0,0,0,363,20,0
+4,25,1,2nd Trifoliate,5,Organic,1,0,0,0,0,455,20,0
+1,26,1,2nd Trifoliate,5,Organic,2,1.6,56, 1/10,0.1,126,20,85
+2,26,1,2nd Trifoliate,5,Organic,2,1.6,56, 1/10,0.1,202,20,85
+3,26,1,2nd Trifoliate,5,Organic,2,1.6,56, 1/10,0.1,365,20,90
+4,26,1,2nd Trifoliate,5,Organic,2,1.6,56, 1/10,0.1,456,20,85
+1,27,1,2nd Trifoliate,5,Organic,3,0.16,5.6,1/100,0.01,127,20,60
+2,27,1,2nd Trifoliate,5,Organic,3,0.16,5.6,1/100,0.01,204,20,60
+3,27,1,2nd Trifoliate,5,Organic,3,0.16,5.6,1/100,0.01,362,20,70
+4,27,1,2nd Trifoliate,5,Organic,3,0.16,5.6,1/100,0.01,460,20,60
+1,28,1,2nd Trifoliate,5,Organic,4,0.032,1.12,1/500,0.002,128,20,40
+2,28,1,2nd Trifoliate,5,Organic,4,0.032,1.12,1/500,0.002,203,20,50
+3,28,1,2nd Trifoliate,5,Organic,4,0.032,1.12,1/500,0.002,361,20,45
+4,28,1,2nd Trifoliate,5,Organic,4,0.032,1.12,1/500,0.002,457,20,60
+1,29,1,2nd Trifoliate,5,Organic,5,0.016,0.56,1/1000,0.001,129,20,20
+2,29,1,2nd Trifoliate,5,Organic,5,0.016,0.56,1/1000,0.001,206,20,20
+3,29,1,2nd Trifoliate,5,Organic,5,0.016,0.56,1/1000,0.001,364,20,40
+4,29,1,2nd Trifoliate,5,Organic,5,0.016,0.56,1/1000,0.001,459,20,30
+1,30,1,2nd Trifoliate,5,Organic,6,0.01067,0.37345,1/1500,0.00067,130,20,10
+2,30,1,2nd Trifoliate,5,Organic,6,0.01067,0.37345,1/1500,0.00067,205,20,20
+3,30,1,2nd Trifoliate,5,Organic,6,0.01067,0.37345,1/1500,0.00067,366,20,30
+4,30,1,2nd Trifoliate,5,Organic,6,0.01067,0.37345,1/1500,0.00067,458,20,15
+1,37,1,2nd Trifoliate,7,Tomato,1,0,0,0,0,137,20,0
+2,37,1,2nd Trifoliate,7,Tomato,1,0,0,0,0,234,20,0
+3,37,1,2nd Trifoliate,7,Tomato,1,0,0,0,0,343,20,0
+4,37,1,2nd Trifoliate,7,Tomato,1,0,0,0,0,480,20,0
+1,38,1,2nd Trifoliate,7,Tomato,2,1.6,56, 1/10,0.1,138,20,80
+2,38,1,2nd Trifoliate,7,Tomato,2,1.6,56, 1/10,0.1,231,20,80
+3,38,1,2nd Trifoliate,7,Tomato,2,1.6,56, 1/10,0.1,348,20,50
+4,38,1,2nd Trifoliate,7,Tomato,2,1.6,56, 1/10,0.1,479,20,80
+1,39,1,2nd Trifoliate,7,Tomato,3,0.16,5.6,1/100,0.01,139,20,30
+2,39,1,2nd Trifoliate,7,Tomato,3,0.16,5.6,1/100,0.01,235,20,30
+3,39,1,2nd Trifoliate,7,Tomato,3,0.16,5.6,1/100,0.01,344,20,10
+4,39,1,2nd Trifoliate,7,Tomato,3,0.16,5.6,1/100,0.01,481,20,20
+1,40,1,2nd Trifoliate,7,Tomato,4,0.032,1.12,1/500,0.002,140,20,20
+2,40,1,2nd Trifoliate,7,Tomato,4,0.032,1.12,1/500,0.002,233,20,10
+3,40,1,2nd Trifoliate,7,Tomato,4,0.032,1.12,1/500,0.002,347,20,20
+4,40,1,2nd Trifoliate,7,Tomato,4,0.032,1.12,1/500,0.002,484,20,10
+1,41,1,2nd Trifoliate,7,Tomato,5,0.016,0.56,1/1000,0.001,141,20,10
+2,41,1,2nd Trifoliate,7,Tomato,5,0.016,0.56,1/1000,0.001,232,20,10
+3,41,1,2nd Trifoliate,7,Tomato,5,0.016,0.56,1/1000,0.001,345,20,15
+4,41,1,2nd Trifoliate,7,Tomato,5,0.016,0.56,1/1000,0.001,483,20,10
+1,42,1,2nd Trifoliate,7,Tomato,6,0.01067,0.37345,1/1500,0.00067,142,20,5
+2,42,1,2nd Trifoliate,7,Tomato,6,0.01067,0.37345,1/1500,0.00067,236,20,10
+3,42,1,2nd Trifoliate,7,Tomato,6,0.01067,0.37345,1/1500,0.00067,346,20,10
+4,42,1,2nd Trifoliate,7,Tomato,6,0.01067,0.37345,1/1500,0.00067,482,20,10
+1,31,1,2nd Trifoliate,6,Grape,1,0,0,0,0,131,20,0
+1,32,1,2nd Trifoliate,6,Grape,1,0,0,0,0,222,20,0
+1,33,1,2nd Trifoliate,6,Grape,1,0,0,0,0,378,20,0
+1,34,1,2nd Trifoliate,6,Grape,1,0,0,0,0,474,20,0
+1,35,1,2nd Trifoliate,6,Grape,2,1.6,56, 1/10,0.1,132,20,100
+1,36,1,2nd Trifoliate,6,Grape,2,1.6,56, 1/10,0.1,220,20,100
+2,33,1,2nd Trifoliate,6,Grape,2,1.6,56, 1/10,0.1,373,20,100
+2,32,1,2nd Trifoliate,6,Grape,2,1.6,56, 1/10,0.1,475,20,100
+2,34,1,2nd Trifoliate,6,Grape,3,0.16,5.6,1/100,0.01,133,20,20
+2,31,1,2nd Trifoliate,6,Grape,3,0.16,5.6,1/100,0.01,219,20,10
+2,36,1,2nd Trifoliate,6,Grape,3,0.16,5.6,1/100,0.01,375,20,30
+2,35,1,2nd Trifoliate,6,Grape,3,0.16,5.6,1/100,0.01,478,20,20
+3,32,1,2nd Trifoliate,6,Grape,4,0.032,1.12,1/500,0.002,134,20,15
+3,34,1,2nd Trifoliate,6,Grape,4,0.032,1.12,1/500,0.002,221,20,15
+3,33,1,2nd Trifoliate,6,Grape,4,0.032,1.12,1/500,0.002,374,20,20
+3,35,1,2nd Trifoliate,6,Grape,4,0.032,1.12,1/500,0.002,476,20,30
+3,36,1,2nd Trifoliate,6,Grape,5,0.016,0.56,1/1000,0.001,135,20,5
+3,31,1,2nd Trifoliate,6,Grape,5,0.016,0.56,1/1000,0.001,224,20,5
+4,35,1,2nd Trifoliate,6,Grape,5,0.016,0.56,1/1000,0.001,376,20,5
+4,31,1,2nd Trifoliate,6,Grape,5,0.016,0.56,1/1000,0.001,473,20,15
+4,32,1,2nd Trifoliate,6,Grape,6,0.01067,0.37345,1/1500,0.00067,136,20,5
+4,34,1,2nd Trifoliate,6,Grape,6,0.01067,0.37345,1/1500,0.00067,223,20,5
+4,36,1,2nd Trifoliate,6,Grape,6,0.01067,0.37345,1/1500,0.00067,377,20,5
+4,33,1,2nd Trifoliate,6,Grape,6,0.01067,0.37345,1/1500,0.00067,477,20,10

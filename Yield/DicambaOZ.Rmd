@@ -1,0 +1,74 @@
+---
+title: "OZ"
+author: "Maxwel C. Oliveira"
+date: "November 21, 2016"
+output: word_document
+---
+
+```{r loadData, warning=FALSE, echo=FALSE, include=FALSE}
+Dicamba=read.csv("Dicamba.csv")
+str(Dicamba)
+```
+
+```{r loadPackage, warning=FALSE, echo=FALSE, include=FALSE}
+library(drc)
+```
+
+```{r LoadData at 2T, echo=FALSE, include=FALSE, warning=FALSE}
+SecondT<-Dicamba[(Dicamba$Stage == 'Second'),]
+str(SecondT)
+```
+
+###Dicamba drift model at 2nd trifoliate.
+```{r Models at 2T, echo=FALSE, warning=FALSE}
+M2T=drm(YL~RateUS, Soybean, fct=l3 (fixed =c(NA,55,NA)), data= SecondT)
+modelFit(M2T)
+summary(M2T)
+```
+
+**Dicamba drift at 2nd trifoliate**
+```{r Plot at 2nd, , echo=FALSE, warning=FALSE}
+plot(M2T, xlim=c(0,1000), legendPos = c(1000,20), xlab = expression(paste("Clarity (Oz acre "^"-1",")")), col=c(1,2,3,4), lty=c(1,2,3,4),lwd=2, pch=c(1,2,3,4), ylab = expression(paste("Soybean Yield Loss (%)")))
+```
+
+
+
+
+**ED's at 2nd Trifoliate**
+```{r ED at 2nd, echo=FALSE, warning=FALSE}
+ED(M2T, c(10,20,30,40,50))
+```
+
+**Comparison of ED50 of drift at 2nd T**
+```{r EDcomp at 2T, echo=FALSE, warning=FALSE}
+EDcomp(M2T, c(50,50))
+```
+
+
+```{r loadData at R2, echo=FALSE, include=FALSE, warning=FALSE}
+R<-Dicamba[(Dicamba$Stage == 'Rtwo'),]
+str(R)
+```
+
+###Dicamba drift model at R2.
+```{r Models at Rtwo, echo=FALSE, warning=FALSE}
+R2T=drm(YL~RateUS, Soybean, fct=l3 (fixed =c(NA,100,NA)), data= R)
+modelFit(R2T)
+summary(R2T)
+```
+
+
+**Dicamba drift at R2.**
+```{r Plot at R2, , echo=FALSE, warning=FALSE}
+plot(R2T, xlim=c(0,1000), legendPos = c(1000,40), xlab =expression(paste("Clarity (Oz acre "^"-1",")")), col=c(1,2,3,4), lty=c(1,2,3,4),lwd=2, pch=c(1,2,3,4), ylab = expression(paste("Soybean Yield Loss (%)")))
+```
+
+
+**ED's at R2**
+```{r ED at R2, echo=FALSE, warning=FALSE}
+ED(R2T, c(10,20,30,40,50,60,70,80,90))
+```
+
+**Comparison of ED50 of drift at 2nd Trifoliate**
+```{r EDcomp at R2, echo=FALSE, warning=FALSE}
+EDcomp(R2T, c(50,50))

@@ -1,0 +1,194 @@
+---
+title: "Dicamba Yield"
+author: "Maxwel C. Oliveira"
+date: "October 31, 2016"
+output: word_document
+---
+
+```{r loadData, warning=FALSE, echo=FALSE, include=FALSE}
+Dicamba=read.csv("Dicamba.csv")
+str(Dicamba)
+```
+
+```{r loadPackage, warning=FALSE, echo=FALSE, include=FALSE}
+library(drc)
+```
+
+
+```{r ConventionalLoadData, echo=FALSE, warning=FALSE, include=FALSE}
+Conv<-Dicamba[(Dicamba$Soybean == 'Conventional'),]
+```
+
+
+##Conventional soybeans at 2nd trifoliate.
+```{r Conventional 2nd, echo=FALSE, warning=FALSE}
+Conv2=drm(YL~RateM, subset=Stage=="Second", fct=l3 (fixed =c(NA,50,NA)), data= Conv)
+summary(Conv2)
+modelFit(Conv2)
+
+plot(Conv2, xlim=c(0,1000), xlab = expression(paste("Dicamba (g ae ha "^"-1",")")), ylab = expression(paste("Soybean Yield Loss (%)")))
+```
+
+```{r ED Conventional 2nd, echo=FALSE, warning=FALSE}
+ED(Conv2, c(10,20,30,40,50))
+```
+
+
+##Conventional soybeans at R2.
+```{r}
+Conv<-Dicamba[(Dicamba$Soybean == 'Conventional'),]
+ConvR=drm(YL~RateM, subset=Stage=="Rtwo", fct=l3 (fixed =c(NA,85,NA)), data=Conv) 
+modelFit(ConvR) 
+summary(ConvR) 
+
+plot(ConvR, ylim=c(-10,100), xlim=c(0,100), xlab = expression(paste("Dicamba (g ae ha "^"-1",")")), ylab = expression(paste("Soybean Yield Loss (%)")))
+```
+
+```{r ED Conventional R2, echo=FALSE, warning=FALSE}
+ED(ConvR, c(10,20,30,40,50,60,70,80,90))
+```
+
+
+```{r OrganicLoadData, echo=FALSE, warning=FALSE, include=FALSE}
+Organic<-Dicamba[(Dicamba$Soybean == 'Organic'),]
+str(Organic)
+```
+
+##Organic soybeans at 2nd trifoliate.
+```{r Organic 2nd, echo=FALSE}
+Org2=drm(YL~RateM, subset=Stage=="Second", fct=l3 (fixed =c(NA,55,NA)), data= Organic)
+modelFit(Org2)
+summary(Org2)
+plot(Org2, xlim=c(0,1000), xlab = expression(paste("Dicamba (g ae ha "^"-1",")")), ylab = expression(paste("Soybean Yield Loss (%)")))
+```
+
+```{r ED Organic 2nd, echo=FALSE, warning=FALSE}
+ED(Org2, c(10,20,30,40,50))
+```
+
+##Organic soybeans at R2.
+```{r Organic R2, echo=FALSE}
+OrgR=drm(YL~RateM, subset=Stage=="Rtwo", fct=l3 (fixed =c(NA,90,NA)), data= Organic)
+modelFit(OrgR)
+summary(OrgR)
+
+plot(OrgR, ylim=c(-10,100), xlim=c(0,1000), xlab = expression(paste("Dicamba (g ae ha "^"-1",")")), ylab = expression(paste("Soybean Yield Loss (%)")))
+```
+
+```{r ED Organic R2, echo=FALSE, warning=FALSE}
+ED(OrgR, c(10,20,30,40,50,60,70,80,90))
+```
+
+
+```{r GlyphosateLoadData, echo=FALSE, warning=FALSE, include=FALSE}
+Glyphosate<-Dicamba[(Dicamba$Soybean == 'Glyphosate'),]
+```
+
+##Glyphosate soybeans at 2nd trifoliate.
+```{r Glyphosate 2nd, echo=FALSE}
+Gly2=drm(YL~RateM, subset=Stage=="Second", fct=l3 (fixed =c(NA,45,NA)), data= Glyphosate)
+modelFit(Gly2)
+summary(Gly2)
+plot(Gly2, xlim=c(0,1000), xlab = expression(paste("Dicamba (g ae ha "^"-1",")")), ylab = expression(paste("Soybean Yield Loss (%)")))
+```
+
+```{r ED Glyphosate 2nd, echo=FALSE, warning=FALSE}
+ED(Gly2, c(10,20,30,40,50))
+```
+
+##Glyphosate soybeans at R2.
+```{r Glyphosate R2, echo=FALSE}
+GlyR=drm(YL~RateM, subset=Stage=="Rtwo", fct=l3 (fixed =c(NA,85,NA)), data= Glyphosate)
+modelFit(GlyR)
+summary(GlyR)
+
+plot(GlyR, xlim=c(0,1000), ylim=c(0,100), xlab = expression(paste("Dicamba (g ae ha "^"-1",")")), ylab = expression(paste("Soybean Yield Loss (%)")))
+```
+
+```{r ED Glyphosate R2, echo=FALSE, warning=FALSE}
+ED(GlyR, c(10,20,30,40,50,60,70,80,90))
+```
+
+
+```{r GlufosinateLoadData, echo=FALSE, warning=FALSE, include=FALSE}
+Glufosinate<-Dicamba[(Dicamba$Soybean == 'Glufosinate'),]
+str(Glufosinate)
+```
+
+##Glufosinate soybeans at 2nd.
+```{r Glufosinate 2nd, echo=FALSE}
+Glu2=drm(YL~RateM, subset=Stage=="Second", fct=l3 (fixed =c(NA,50,NA)), data= Glufosinate)
+modelFit(Glu2)
+summary(Glu2)
+plot(Glu2, xlim=c(0,1000), xlab = expression(paste("Dicamba (g ae ha "^"-1",")")), ylab = expression(paste("Soybean Yield Loss (%)")))
+```
+
+```{r ED Glufosinate 2nd, echo=FALSE, warning=FALSE}
+ED(Glu2, c(10,20,30,40,50))
+```
+
+
+##Glufosinate soybeans at R2.
+```{r Glufosinate R2, echo=FALSE}
+GluR=drm(YL~RateM, subset=Stage=="Rtwo", fct=l3 (fixed =c(NA,100,NA)), data= Glufosinate)
+modelFit(GluR)
+summary(GluR)
+
+plot(GluR, xlim=c(0,1000), xlab = expression(paste("Dicamba (g ae ha "^"-1",")")),
+     ylab = expression(paste("Soybean Yield Loss (%)")))
+```
+
+```{r ED Glufosinate R2, echo=FALSE, warning=FALSE}
+ED(GluR, c(10,20,30,40,50,60,70,80,90))
+```
+
+
+```{r LoadData at 2T, echo=FALSE, include=FALSE, warning=FALSE}
+SecondT<-Dicamba[(Dicamba$Stage == 'Second'),]
+str(SecondT)
+```
+
+###Plot at 2nd Trifoliate
+```{r Models at 2T, echo=FALSE, warning=FALSE}
+M2T=drm(YL~RateM, Soybean, fct=l3 (fixed =c(NA,55,NA)), data= SecondT)
+modelFit(M2T)
+summary(M2T)
+
+plot(M2T, xlim=c(0,1000), legendPos = c(10,55), xlab = expression(paste("Dicamba (g ae ha "^"-1",")")), col=c(1,2,3,4), lty=c(1,2,3,4),lwd=2, pch=c(1,2,3,4), ylab = expression(paste("Soybean Yield Loss (%)")))
+```
+
+## ED's at 2nd Trifoliate
+```{r ED at 2nd, echo=FALSE, warning=FALSE}
+ED(M2T, c(10,20,30,40,50))
+```
+
+## Comparison of ED50 of drift at 2nd T
+```{r EDcomp at 2T, echo=FALSE, warning=FALSE}
+EDcomp(M2T, c(50,50))
+```
+
+
+```{r loadData at R2, echo=FALSE, include=FALSE, warning=FALSE}
+R<-Dicamba[(Dicamba$Stage == 'Rtwo'),]
+str(R)
+```
+
+###Plot at 2nd Trifoliate
+```{r Models at Rtwo, echo=FALSE, warning=FALSE}
+R2T=drm(YL~RateM, Soybean, fct=l3 (fixed =c(NA,100,NA)), data= R)
+modelFit(R2T)
+summary(R2T)
+
+plot(R2T, xlim=c(0,1000), legendPos = c(10,55), xlab = expression(paste("Dicamba (g ae ha "^"-1",")")), col=c(1,2,3,4), lty=c(1,2,3,4),lwd=2, pch=c(1,2,3,4), ylab = expression(paste("Soybean Yield Loss (%)")))
+```
+
+
+## ED's at R2.
+```{r ED at R2, echo=FALSE, warning=FALSE}
+ED(R2T, c(10,20,30,40,50,60,70,80,90))
+```
+
+## Comparison of ED50 of drift at 2nd T.
+```{r EDcomp at R2, echo=FALSE, warning=FALSE}
+EDcomp(R2T, c(50,50))
+```
